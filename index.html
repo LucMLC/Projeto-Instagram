@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/icone/instagram (1).png">
+    <title>Instagram</title>
+</head>
+
+<body>
+
+    <div class="imagens">
+
+        <img src="assets/celular.png" class="img-celular">
+        <img src="assets/insta1.png" class="img-insta">
+        <img src="assets/insta2.png" class="img-insta img-2">
+
+    </div>
+
+    <div class="lado-direito">
+
+        <div class="container">
+
+            <img src="assets/insta-logo.png">
+
+            <input placeholder="Telefone, nome de usuário ou email">
+
+            <input placeholder="Senha" type="password">
+
+            <button class="Entrar"> Entrar </button>
+
+            <div class="ou">
+
+                <hr class="linha1" size="2" width="100">
+
+                <p class="OU"> OU </p>
+
+                <hr class="linha2" size="2" width="100">
+
+            </div>
+
+            <a class="Entrar-com-facebook">
+                <img src="assets/facebook (1).png" alt="facebook"> Entrar com o Facebook
+            </a>
+
+            <a class="Esqueceu-a-senha"> Esqueceu a senha? </a>
+
+        </div>
+
+        <div class="container-2">
+
+            <p class="nao-tem-conta"> Não tem uma conta?
+
+                <button class="cadastre-se">Cadastre-se</button>
+
+            </p>
+
+        </div>
+
+        <div class="baixar-app">
+            <p class="Obtenha-aplicativo"> Obtenha o aplicativo.</p>
+
+            <img class="play-story" src="https://static.cdninstagram.com/rsrc.php/v3/y_/r/tUzYKZ-xrQK.png">
+
+            <img class="microsoft" src="https://static.cdninstagram.com/rsrc.php/v3/yE/r/QQnPXT5YsC4.png">
+
+        </div>
+
+</body>
+
+<script>
+
+    let imagem = document.querySelector(".img-2")
+
+    setInterval(() => {
+
+        if (imagem.style.opacity == 0) {
+            imagem.style.opacity = 1
+        } else{
+            imagem.style.opacity = 0
+        }
+
+    }, 3000)
+
+
+
+</script>
+
+</html>

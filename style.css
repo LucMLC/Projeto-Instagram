@@ -1,0 +1,150 @@
+body {
+    background-color: #fafafa;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* Alinha na horizontal*/
+    align-items: center;
+    /* Alinha na vertical somente com display flex*/
+    font-family: sans-serif;
+}
+
+.img-celular {
+    width: 450px;
+
+}
+
+.container {
+    border: 1px solid #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 40px;
+}
+
+.container-2 {
+    border: 1px solid #d3d3d3;
+    width: 360px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.nao-tem-conta {
+    text-align: center;
+}
+
+.cadastre-se {
+    border: none;
+    color: #0293f3;
+    font-size: 15px;
+    padding-left: 0px;
+    cursor: pointer;
+
+}
+
+input {
+    height: 36px;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    margin-top: 8px;
+    background-color: #f7f7f7;
+
+}
+
+.lado-direito {
+    display: inline-block;
+}
+
+.Entrar {
+    background-color: #0095f6;
+    font-weight: bold;
+    height: 30px;
+    border-radius: 10px;
+    color: #ffff;
+    border: 1px solid #d3d3d3;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.ou {
+    display: flex;
+    padding: 0px;
+    margin-top: 10px;
+
+
+}
+
+.linha1 {
+    display: inline;
+    margin-top: 23px;
+}
+
+.OU {
+    display: inline;
+    text-align: center;
+    font-size: 15px;
+}
+
+.linha2 {
+    display: inline;
+    margin-top: 23px;
+
+}
+
+.Entrar-com-facebook {
+    color: #385185;
+    text-align: center;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.Esqueceu-a-senha {
+    text-align: center;
+    margin-top: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.Obtenha-aplicativo {
+    text-align: center;
+
+}
+
+.baixar-app1 {
+    display: flex;
+    margin: 0 0;
+}
+
+.play-story {
+    width: 150px;
+    align-items: center;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+
+.microsoft {
+    width: 150px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.imagens{
+    position: relative; 
+
+}
+
+.img-insta{
+    height: 520px;
+    position: absolute; /* Escolho exatamente onde eu quero que ele fique atraves do 
+    left e top tomando posição em relaçao a tela no inicio, porem como coloquei a posição
+    relativa na div pai ele tomou como referencia a div imagens*/
+    left: 153px;
+    top: 26px;
+    transition: 2s ease-in-out;
+
+}
