@@ -68,7 +68,7 @@ git push origin minha-alteracao</code>
 
 <h2>Autor</h2>
 
-<p>Este projeto foi desenvolvido por <a href="https://github.com/LucMLC">Martinez software engineer</a>.</p>
+<p>Este projeto foi desenvolvido por <a href="https://github.com/LucMLC">Martinez Software Engineer</a>.</p>
 
 <h2>Licença</h2>
 
