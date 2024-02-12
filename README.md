@@ -59,7 +59,7 @@ quando necessário.</li>
 <code>git checkout -b minha-alteracao</code>
 <li>Faça suas alterações e adicione, comite e faça push para a sua branch:</li>
 <pre>
-code>git add .
+<code>git add .
 git commit -m "Descrição das alterações"
 git push origin minha-alteracao</code>
 </pre>
@@ -68,7 +68,7 @@ git push origin minha-alteracao</code>
 
 <h2>Autor</h2>
 
-<p>Este projeto foi desenvolvido por <a href="https://github.com/LucMLC">Martinez Enginee Software</a>.</p>
+<p>Este projeto foi desenvolvido por <a href="https://github.com/LucMLC">Martinez software engineer</a>.</p>
 
 <h2>Licença</h2>
 
