@@ -3,7 +3,7 @@
 <a href="https://login-intagram.netlify.app/">Site publicado</a>
 <h1>Replica do Instagram</h1>
 
-<img src="https://login-intagram.netlify.app/images/instagram-logo.png" alt="Replica do Instagram Logo">
+<img src="./assets/Captura de tela 2024-02-12 154216.png" alt="Replica do Instagram Logo">
 
 <p>Este é o repositório oficial da Replica do Instagram, um projeto desenvolvido para praticar habilidades de
 desenvolvimento web, especialmente HTML, CSS e JavaScript. Esta réplica do Instagram foi criada para simular a
@@ -33,7 +33,7 @@ quando necessário.</li>
 
 <ol>
 <li>Clone este repositório em sua máquina local usando o seguinte comando:</li>
-<code>git clone https://github.com/seu-usuario/instagram-replica.git</code>
+<code>git clone https://github.com/LucMLC/instagram-replica.git</code>
 <li>Navegue até o diretório do projeto:</li>
 <code>cd instagram-replica</code>
 <li>Abra o arquivo <code>index.html</code> em seu navegador da web.</li>
@@ -54,7 +54,7 @@ quando necessário.</li>
 <ol>
 <li>Faça um fork deste repositório clicando no botão "Fork" no canto superior direito desta página.</li>
 <li>Clone seu fork para sua máquina local:</li>
-<code>git clone https://github.com/seu-usuario/instagram-replica.git</code>
+<code>git clone https://github.com/LucMLC/instagram-replica.git</code>
 <li>Crie uma branch para suas alterações:</li>
 <code>git checkout -b minha-alteracao</code>
 <li>Faça suas alterações e adicione, comite e faça push para a sua branch:</li>
@@ -68,7 +68,7 @@ git push origin minha-alteracao</code>
 
 <h2>Autor</h2>
 
-<p>Este projeto foi desenvolvido por <a href="https://github.com/seu-usuario">Seu Nome</a>.</p>
+<p>Este projeto foi desenvolvido por <a href="https://github.com/LucMLC">Martinez Enginee Software</a>.</p>
 
 <h2>Licença</h2>
 
